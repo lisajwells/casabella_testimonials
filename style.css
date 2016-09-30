@@ -1002,6 +1002,14 @@ display: none !important;
   }
 }
 
+/* Testimonials Archive and Single
+--------------------------------------------- */
+
+.post-type-archive-testimonials .site-container {
+  background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;
+  /*background-size: cover;*/
+}
+
 /* Contact
 --------------------------------------------- */
 p#form_success {
