@@ -1,31 +1,33 @@
 /* About
 --------------------------------------------- */
 @media only screen and (min-width: 1140px) {
+
   .sides {
-  display:block;
+    display:block;
   }
   .title {
-  margin-top:0px;
+    margin-top: 0;
   }
 }
 
 /* Interior Page
 --------------------------------------------- */
 @media only screen and (min-width: 420px) {
+
   .interior-nav-label {
-    padding: 50px 10px;
     font-size: 20px;
+    padding: 50px 10px;
   }
 }
 
 @media only screen and (min-width: 768px) {
 
   .navpic-wrapper {
-      display: inline-block;
-      float: left;
-      margin: 0 0 0 0;
-      position: relative;
-      width: 50%;
+    /*display: inline-block;*/
+    float: left;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 50%;
   }
 }
 
@@ -34,13 +36,13 @@
 
   .page-template-page-interior main.content {
     max-width: none;
-    width: 50%;
     min-height: 710px; /*pic div is 762 at width 999*/
+    width: 50%;
   }
 
   .page-template-page-interior article {
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
 
   .one-half { /*this norm kicks in 930*/
@@ -48,40 +50,42 @@
   }
 
   .navpic-wrapper {
-      margin: 0 0 0 0;
-      position: relative;
-      width: 100%;
-      display: block;
+    display: block;
+    margin: 0 0 0 0;
+    position: relative;
+    width: 100%;
   }
 
   #interior-picnav-left,
   #interior-picnav-right {
-    width: 22%;
-    max-width: 300px;
-    overflow: hidden;
     margin-bottom:0;
     margin-top:0;
+    max-width: 300px;
+    overflow: hidden;
     position: absolute;
     top: 12em;
+    width: 22%;
   }
 
   #interior-picnav-left {
     left: 0;
   }
+
   #interior-picnav-right {
     right: 0;
   }
-  .page-template-page-interior .notch-wrapper {
-      margin-bottom: 40px;
-    }
 
-      #interior-picnav-left,
+  .page-template-page-interior .notch-wrapper {
+    margin-bottom: 40px;
+  }
+
+  #interior-picnav-left,
   #interior-picnav-right {
-    width: 22%;
-    overflow: hidden;
     margin-bottom:0;
+    overflow: hidden;
     position: absolute;
     top: 144px;
+    width: 22%;
   }
   .page-template-page-interior h2 {
     margin-top: 0;
@@ -95,6 +99,7 @@
     min-height: 788px; /*pic div is 840 at width 1099*/
   }
 }
+
 @media only screen and (min-width: 1100px) {
 
   .page-template-page-interior main.content {
@@ -103,6 +108,7 @@
 }
 
 @media only screen and (min-width: 1130px) {
+
   .one-half { /*this norm kicks in 930*/
     float: left;
     margin-left: 2.564102564102564%;
@@ -127,14 +133,16 @@
 /* Interior Sub Pages */
 
 @media only screen and (min-width: 700px) {
+
   .notch-wrapper-int {
+    margin:auto;
     width: 90%;
-  margin:auto;
   }
 }
 
 /*browser 590 and up blockquote needs left margin*/
 @media only screen and (min-width: 590px) {
+
   blockquote.construction-list {
     margin: 40px 0 40px 45%;
     padding: 10px 10px 10px 36px;
@@ -143,17 +151,20 @@
 
 /*browser 700 and up blockquote gets more padding*/
 @media only screen and (min-width: 700px) {
+
   blockquote.construction-list {
     margin: 40px 0 40px 45%;
     padding: 40px 70px 40px;
   }
- blockquote.construction-list li{
-    padding: 14px 0px;
+
+  blockquote.construction-list li{
+    padding: 14px 0;
   }
 }
 
 /*browser 1345 and up image max width 500*/
 @media only screen and (min-width: 1345px) {
+
   blockquote.construction-list {
     margin: 40px 60px 40px 624px;
   }
@@ -161,12 +172,14 @@
 
 /* Portfolio Page */
 @media only screen and (min-width: 460px) {
+
   .portpic-wrapper {
       width: 46%;
     }
 }
 
 @media only screen and (min-width: 740px) {
+
   .portpic-wrapper {
       width: 29.33%;
   }
@@ -176,20 +189,23 @@
 --------------------------------------------- */
 
 @media only screen and (min-width: 930px) {
+
   .non-bleed-wrapper { /* for shop page bleed page */
       margin: 68px 28px;
   }
 }
 
 @media only screen and (min-width: 1300px) {
+
   .page-template-page-wide .content-sidebar-wrap,
   .page-template-page-events .content-sidebar-wrap,
   .page-template-page-banner .content-sidebar-wrap {
-      margin: 0px 40px;
+      margin: 0 40px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
+
   .page-template-page-wide .content-sidebar-wrap,
   .page-template-page-events .content-sidebar-wrap,
   .page-template-page-banner .content-sidebar-wrap {
@@ -201,11 +217,13 @@
 }
 
 @media only screen and (min-width: 1480px) {
+
   .page-template-page-wide .content-sidebar-wrap,
   .page-template-page-events .content-sidebar-wrap,
   .page-template-page-banner .content-sidebar-wrap {
       margin: 0 40px;
   }
+
   .non-bleed-wrapper { /* for shop page bleed page */
       margin: 68px 40px 0 40px;
   }
@@ -222,9 +240,10 @@
 @media only screen and (min-width: 930px) {
 
   .shop-info {
-    width: 25%;
     margin:0;
+    width: 25%;
   }
+
   .shop-info h1 {
     font-size: 34px;
   }
@@ -232,7 +251,6 @@
   .shop-info .shop-info-info {
     margin: 10px 0;
   }
-
 }
 
 @media only screen and (min-width: 1170px) {
@@ -240,20 +258,22 @@
   .shop-info h1 {
     font-size: 40px;
   }
+
   .shop-info .shop-info-info {
     font-size: 17px;
     margin: 20px 0;
   }
+
   .shop-info div.nonotch {
     font-size: 18px;
-    margin-top: 20px;
     height: auto;
+    margin-top: 20px;
     padding: 10px;
   }
 
   .shop-img-left {
-  float: left;
-  display:block;
+    display:block;
+    float: left;
   }
 
   .shop-body {
@@ -266,10 +286,10 @@
 @media only screen and (min-width: 600px) {
 
   .page.page-template-page_blog article {
-    width: 46%;
+    height:550px;
     margin: 2%;
     padding: 0 3%;
-    height:550px;
+    width: 46%;
   }
 
   .page-id-40.entry-footer {
@@ -288,33 +308,37 @@
   }
 
   .page.page-template-page_blog article {
+    height:650px;
     width: 29.33333333333%;
-  height:650px;
   }
 
 }
 
 @media only screen and (min-width: 1200px) {
+
   .page.page-template-page_blog article {
-    width: 29.33333333333%;
     height:575px;
+    width: 29.33333333333%;
   }
 
 }
 
 @media only screen and (min-width: 1300px) {
+
   .page.page-template-page_blog .content-sidebar-wrap {
       padding: 0 52px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
+
   .page.page-template-page_blog .content-sidebar-wrap {
       padding: 0 72px;
   }
 }
 
 @media only screen and (min-width: 1480px) {
+
   .page.page-template-page_blog .content-sidebar-wrap {
       padding: 0 112px;
   }
@@ -324,15 +348,17 @@
 ---------------------------------------------------------------------------------------------------- */
 
 @media only screen and (min-width:930px) {
+
   #footer-nav {
       margin: 30px auto;
   }
 }
 
 @media only screen and (min-width:930px) {
+
   #footer-branding {
-    text-align: center;
     padding-top:40px;
+    text-align: center;
   }
 }
 
@@ -353,33 +379,38 @@
 }*/
 
 @media only screen and (min-width: 460px) {
+
   .button {
       letter-spacing: 1px;
   }
+
   .michele {
-  max-width:40%;
-  float:left;
+    float:left;
+    max-width:40%;
   }
-.up {
-  margin-top:-50px;
+
+  .up {
+    margin-top:-50px;
   }
 }
 
 @media only screen and (min-width: 490px) {
+
   .home h2 {
-      font-size: 40px;
+    font-size: 40px;
   }
+
   .coverImage {
-    width:45%;
     margin:2%;
+    width:45%;
   }
 }
 
 @media only screen and (min-width: 600px) {
 
   .home-press-logos {
-      width: 70%;
-      margin: 0 auto;
+    margin: 0 auto;
+    width: 70%;
   }
 
   .home h1,
@@ -388,24 +419,26 @@
     letter-spacing: 4px;
     padding: 17px;
   }
+
   p.inner-locations {
+    color:#6A9BAA;
     margin: 0;
-  color:#6A9BAA;
   }
+
   .home h1 {
-    margin 0 80px;
+    margin: 0 80px;
   }
 
   #gradient-div {
-      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.35+100 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.35+100 */
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
     display: block;
-      height: auto;
-      position: absolute;
-      width: 100%;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+    height: auto;
+    position: absolute;
+    width: 100%;
     z-index: 49;
   }
 
@@ -416,12 +449,12 @@
   #tagline_image {
     bottom: 85px;
     display: block;
-      left: 50%;
-      margin-bottom: -85px;
-      margin-left: -150px;
-      position: relative;
-      width: 300px;
-      z-index: 9999;
+    left: 50%;
+    margin-bottom: -85px;
+    margin-left: -150px;
+    position: relative;
+    width: 300px;
+    z-index: 9999;
   }
 
   #tagline-for-small {
@@ -440,8 +473,8 @@
 @media only screen and (min-width: 740px) {
 
   .home-press-logos {
-      width: 60%;
-      margin: 0 auto;
+    width: 60%;
+    margin: 0 auto;
   }
 
 
@@ -452,9 +485,10 @@
   blockquote {
     margin: 40px 60px;
   }
+
   .coverImage {
     width:28.75%;
-  margin:2%;
+    margin:2%;
   }
 }
 
@@ -463,7 +497,6 @@
   .site-container {
     margin: 0 auto;
     max-width: 1570px;
-    /*max-width: none;*/
     padding: 0;
   }
 
@@ -479,12 +512,13 @@
   }
 
   .home h2 {
-      font-size: 55px;
-      margin-left:-3px;
+    font-size: 55px;
+    margin-left:-3px;
   }
+
   .coverImage {
     width:20.5%;
-  margin:2%;
+    margin:2%;
   }
   .site-header {
     margin-bottom: 50px !important;
@@ -502,13 +536,6 @@
     width: 60%; /* 600px */
   }
 
-  /*.full-width-content .content { /* this was used less and less
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }*/
-
   .footer-widgets .widget:last-child {
     margin-bottom: 0;
   }
@@ -524,8 +551,7 @@
     margin-right: 5%; /* 50px */
   }
 
-/*  .content,
-*/  .footer-widgets-1,
+  .footer-widgets-1,
   .footer-widgets-2,
   .sidebar-content .sidebar {
     float: left;
@@ -547,11 +573,12 @@
 
   .genesis-nav-menu a {
     font-size:13px;
+    margin: 30px 2px 0;
     padding: 8px;
-    margin: 30px 2px 0px;
     padding-bottom: 57px; /* make link active for height of header so sub-menu works */
     /*margin: 40px 5px;*/
   }
+
   .genesis-nav-menu .blue a {
     padding-bottom: 8px; /* no sub-menu on this one */
   }
@@ -562,11 +589,11 @@
 
   .genesis-nav-menu .sub-menu {
     background-color: #a4c4d0;
-    left: -9999px;
     color:#000;
+    left: -9999px;
+    margin-top: 0;
     opacity: 0;
     position: absolute;
-    margin-top: 0;
   }
 
   .genesis-nav-menu .menu-item:hover {
@@ -575,18 +602,17 @@
 
   .genesis-nav-menu .sub-menu:after,
   .genesis-nav-menu .sub-menu:before {
-    bottom: 100%;
-    left: 50%;
     border: solid transparent;
+    bottom: 100%;
     content: " ";
     height: 0;
-    width: 0;
-    position: absolute;
+    left: 50%;
     pointer-events: none;
+    position: absolute;
+    width: 0;
   }
 
   .genesis-nav-menu .sub-menu:after {
-
     margin-left: -10px;
   }
 
@@ -602,9 +628,9 @@
   }
 
   .genesis-nav-menu .sub-menu a {
-    padding: 0px;
     color: #fff;
-    margin:20px 0px;
+    margin:20px 0;
+    padding: 0;
     text-transform:uppercase;
   }
 
@@ -635,12 +661,11 @@
   }
 
   .navigation-container {
+    background: transparent;
     background-color: #fff;
     margin: -166px 20px 16px;
     min-height: 70px;
     position: relative;
-    /*z-index: 100;*/
-    background: transparent;
   }
 
   .nav-primary,
@@ -681,8 +706,7 @@
     display: none;
   }
 
-  .footer-widgets/*,
-  .site-inner*/ {
+  .footer-widgets {
     margin-left: 0;
     margin-right: 0;
   }
@@ -771,42 +795,41 @@
 @media only screen and (min-width: 1100px) {
 
   .genesis-nav-menu a {
-    padding: 8px;
-    margin: 30px 5px;
-    /*margin: 30px 10px;*/
     font-size:14px;
+    margin: 30px 5px;
+    padding: 8px;
   }
-
-  .genesis-nav-menu .sub-menu {
-      /*margin-top: 16px;*/
-  }
-
 }
+
 @media only screen and (min-width: 1140px) {
+
  .events {
-  display:block;
+    display:block;
   }
-.right {
-  padding-right:40px;
-  margin-bottom:320px;
+
+  .right {
+    margin-bottom:320px;
+    padding-right:40px;
   }
 }
+
 @media only screen and (min-width: 1300px) {
 
   .navigation-container {
       margin: -170px 60px 16px;
-    }
+  }
+
 .right {
-  padding-right:40px;
   margin-bottom:250px;
+  padding-right:40px;
   }
 }
 
 @media only screen and (min-width: 1400px) {
 
   .navigation-container {
-      margin: -170px 80px 16px;
-    }
+    margin: -170px 80px 16px;
+  }
 }
 
 @media only screen and (min-width: 1480px) {
@@ -817,23 +840,26 @@
 }
 
 @media only screen and (min-width: 1570px) {
+
   .site-container {
-    max-width: 1570px;
     margin: 0 auto;
+    max-width: 1570px;
   }
+
   #gradient-div { /* home slider div must match max */
-      /* width: 100%; */
-      max-width: 1570px;
       margin-right: 0;
+      max-width: 1570px;
   }
 }
 
 @media only screen and (max-width: 430px) {
-.up {
-clear:both;
+
+  .up {
+    clear:both;
   }
-.michele {
-  max-width:100%;
-  clear:both;
+
+  .michele {
+    clear:both;
+    max-width:100%;
   }
 }
