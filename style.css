@@ -516,12 +516,14 @@ img {
   text-align: center;
 }
 
+cite span,
 .title span,
 .overline span {
   display: inline-block;
   position: relative;
 }
 
+cite span:before,
 .overline span:before,
 .overline span:after,
 .title span:before,
@@ -534,6 +536,11 @@ img {
   width: 100%;
 }
 
+cite span:before {
+  width: 40px;
+}
+
+cite span:before,
 .overline span:before,
 .title span:before {
   margin-right: 15px;
@@ -1044,6 +1051,16 @@ display: none !important;
 
 .testimonials:nth-of-type(odd) {
   margin-right: 8%;
+}
+
+.testimonials footer {
+  text-align: center;
+}
+
+.testimonials footer cite {
+  font-family: "garamond-premier-pro-display", serif;
+  font-size: 1.3em;
+  font-style: normal;
 }
 
 
