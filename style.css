@@ -1026,7 +1026,7 @@ display: none !important;
 
 .post-type-archive-testimonials .site-container {
   background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;
-  /*background-size: cover;*/
+  background-size: cover;
 }
 
 .overline {
@@ -1058,6 +1058,7 @@ display: none !important;
 }
 
 .testimonials footer cite {
+  display: block;
   font-family: "garamond-premier-pro-display", serif;
   font-size: 1.3em;
   font-style: normal;

@@ -24,10 +24,20 @@ function casa_do_post_title_as_attribution() {
     ) );
 
     echo apply_filters( 'genesis_post_title_output', "$output \n", $title );
-
 }
 
+// Add Read More Link to Excerpts
+// add_filter('excerpt_more', 'get_read_more_link');
+// add_filter( 'the_content_more_link', 'get_read_more_link' );
+// function get_read_more_link() {
+//     return '<a href="' . get_permalink() . '">Read More…</a>';
+// }
 
+// Add Read More Button
+add_action( 'genesis_entry_footer', 'casa_do_read_more_button' );
+function casa_do_read_more_button() {
+    echo '<a class="button" href="' . get_permalink() . '">Read More</a>';
+}
 
 //* Remove the entry meta in the entry header (requires HTML5 theme support)
 remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
