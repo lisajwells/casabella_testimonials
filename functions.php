@@ -25,6 +25,8 @@ function ms_scripts_styles() {
 
 	wp_enqueue_style( 'dashicons' );
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic|Montserrat', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'casa-media-css', get_stylesheet_directory_uri() . '/style-media-qs.css' );
+
 
 }
 
@@ -99,7 +101,7 @@ function ms_menus_container() {
 	echo '<div class="navigation-container">';
 	do_action( 'ms_menus' );
 	echo '</div>';
-	
+
 }
 
 //* Relocate Primary (Left) Navigation
@@ -151,9 +153,9 @@ function ms_entry_meta_footer( $post_meta ) {
 //* Remove comment form allowed tags
 add_filter( 'comment_form_defaults', 'ms_remove_comment_form_allowed_tags' );
 function ms_remove_comment_form_allowed_tags( $defaults ) {
-	
+
 	$defaults['comment_field'] = '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun', 'modern-studio' ) . '</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>';
-	$defaults['comment_notes_after'] = '';	
+	$defaults['comment_notes_after'] = '';
 
 	return $defaults;
 
@@ -202,7 +204,7 @@ genesis_register_sidebar( array(
 
 //*++++++++++++ Custom for Casabella +++++++++++++*/
 
-//* remove extra p from portfolio page content *// 
+//* remove extra p from portfolio page content *//
 
 remove_filter('the_content','wpautop');
 
@@ -211,7 +213,7 @@ remove_filter('the_content','wpautop');
 add_filter('the_content','casa_custom_autop');
 
 function casa_custom_autop($content){
-if(is_page ('portfolio') || is_page('furniture-stores-cape-cod')) 
+if(is_page ('portfolio') || is_page('furniture-stores-cape-cod'))
     return $content;//no autop
 else
  return wpautop($content);
