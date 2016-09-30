@@ -499,41 +499,53 @@ img {
 --------------------------------------------- */
 .sides {
   display:none;
-  }
+}
+
 .heading {
   color: #6A9BAA;
-    font-size: 48px;
-    font-weight: 400;
-    letter-spacing: -.5px;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: -.5px;
   padding-top:20px;
-  }
-.title {
-        text-align: center;
-        overflow: hidden;
-        line-height: 1.1em;
-  margin-top:20px;
 }
-.title span {
+
+.title {
+  line-height: 1.1em;
+  margin-top:20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.title span,
+.overline span {
   display: inline-block;
   position: relative;
 }
+
+.overline span:before,
+.overline span:after,
 .title span:before,
 .title span:after {
-  content: "";
-  position: absolute;
-  height: 5px;
   border-top:#888 1px solid;
+  content: "";
+  height: 5px;
+  position: absolute;
   top: 50%;
   width: 100%;
 }
+
+.overline span:before,
 .title span:before {
-  right: 100%;
   margin-right: 15px;
+  right: 100%;
 }
+
+.overline span:after,
 .title span:after {
   left: 100%;
   margin-left: 15px;
 }
+
 @media only screen and (min-width: 1140px) {
   .sides {
   display:block;
@@ -1009,6 +1021,14 @@ display: none !important;
   background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;
   /*background-size: cover;*/
 }
+
+.overline {
+  margin: 24px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
 
 /* Contact
 --------------------------------------------- */
