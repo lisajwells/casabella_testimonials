@@ -1062,6 +1062,11 @@ display: none !important;
   font-family: "garamond-premier-pro-display", serif;
   font-size: 1.3em;
   font-style: normal;
+  margin-bottom: 1em;
+}
+
+.testimonials footer cite a.button {
+  padding: 10px 3px 3px 3px;
 }
 
 
