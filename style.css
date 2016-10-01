@@ -847,6 +847,12 @@ blockquote.construction-list {
     overflow: scroll;
 }
 
+.single-testimonials .site-container {
+    background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .overline {
   margin: 24px 0 0;
   text-align: center;
