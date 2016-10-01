@@ -879,8 +879,8 @@ blockquote.construction-list {
 }
 
 .testimonials footer a.button {
-  padding: 10px 3px 3px 3px;
   margin-bottom: 9px;
+  padding: 10px 3px 3px 3px;
 }
 
 
@@ -1299,6 +1299,10 @@ main.content,
   margin: 0 auto 0;
   max-width: 900px;
   width: 80%;
+}
+
+.post-type-archive-testimonials main.content {
+  max-width: none;
 }
 
 /* templates wide and bleed */
