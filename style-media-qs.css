@@ -645,8 +645,6 @@
 
 }
 
-/* About
---------------------------------------------- */
 @media only screen and (min-width: 1140px) {
 
   .sides {
@@ -663,6 +661,10 @@
   .right {
     margin-bottom:320px;
     padding-right:40px;
+  }
+
+  .testimonials {
+    height: 452px;
   }
 }
 
@@ -730,6 +732,12 @@
     margin-bottom:250px;
     padding-right:40px;
   }
+
+  .testimonials {
+    height: 424px;
+  }
+
+
 }
 
 /*browser 1345 and up image max width 500*/
@@ -779,6 +787,12 @@
   .navigation-container {
       margin: -170px 120px 16px;
     }
+
+  .testimonials {
+    height: 396px;
+  }
+
+
 }
 
 @media only screen and (min-width: 1570px) {
