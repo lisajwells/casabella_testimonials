@@ -288,10 +288,18 @@ function casa_image_banner() {
 	}
 }
 
-
 //* Customize the entry meta in the entry header (requires HTML5 theme support)
 add_filter( 'genesis_post_info', 'sp_post_info_filter' );
 function sp_post_info_filter($post_info) {
 	$post_info = '[post_date] by [post_author_posts_link]';
 	return $post_info;
 }
+
+// add_filter('excerpt_length', 'casa_testimonial_excerpt_length');
+// function casa_testimonial_excerpt_length($length) {
+// 	if(is_post_type_archive( 'testimonials' ) ) {
+// 		return 20;
+// 	} else {
+// 		return 55;
+// 	}
+// }
