@@ -40,33 +40,5 @@ function casa_show_testimonial_page_title() {
     echo '<p class="overline"><span>What people are saying</span></p><h2 class="title">Featured Testimonials</h2>';
 }
 
-//* Customize length of excerpt used in testimonials cpt
-// function get_testimonial_excerpt(){
-// $excerpt = get_the_content();
-// $excerpt = preg_replace(" ([.*?])",'',$excerpt);
-// $excerpt = strip_shortcodes($excerpt);
-// $excerpt = strip_tags($excerpt);
-// $excerpt = substr($excerpt, 0, 50);
-// $excerpt = substr($excerpt, 0, strripos($excerpt, " "));
-// $excerpt = trim(preg_replace( '/s+/', ' ', $excerpt));
-// $excerpt = $excerpt.'... <a href="'.$permalink.'">more</a>';
-// return $excerpt;
-// }
-
-// Changing excerpt length - only works with MANUAL excerpt
-// Priority of 9 is set so that read more filter function fires AFTER this one.
-add_filter('get_the_excerpt', 'manual_excerpt_length', 9);
-function manual_excerpt_length($excerpt) {
-    global $post;
-    $length = 20; //Number of characters to display in excerpt
-    $new_excerpt = substr($post->post_excerpt, 0, $length); //truncate excerpt according to $len
-    if(strlen($new_excerpt) < strlen($post->post_excerpt)) {
-        return $new_excerpt;
-    } else {
-        return $excerpt;
-    }
-}
-
-
 // Initialize Genesis.
 genesis();
