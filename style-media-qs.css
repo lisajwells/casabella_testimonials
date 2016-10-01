@@ -297,9 +297,12 @@
     margin:2%;
   }
 
+  /* Testimonials Archive */
   .testimonials {
     float: left;
+    height: 480px;
     padding: 4%;
+    position: relative;
     width: 46%;
   }
 
@@ -307,6 +310,17 @@
     margin-right: 8%;
   }
 
+  .testimonials footer a.button {
+    bottom: 20px;
+    left: 50%;
+    height: 56px;
+    margin-bottom: 9px;
+    padding: 10px 3px 3px 3px;
+    position: absolute;
+    transform: translate(-50%);
+  }
+
+  /**/
 
   .site-header {
     margin-bottom: 50px !important;
