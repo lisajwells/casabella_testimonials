@@ -666,6 +666,10 @@
   .post-type-archive-testimonials .testimonials {
     height: 452px;
   }
+
+  .single-testimonials main.content {
+    margin: 7% auto;
+  }
 }
 
 @media only screen and (min-width: 1170px) {
@@ -790,6 +794,10 @@
 
   .post-type-archive-testimonials .testimonials {
     height: 396px;
+  }
+
+  .single-testimonials main.content {
+    margin: 5% auto;
   }
 
 

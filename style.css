@@ -853,6 +853,10 @@ blockquote.construction-list {
     background-size: cover;
 }
 
+.single-testimonials main.content {
+    margin: 10% auto;
+}
+
 .overline {
   margin: 24px 0 0;
   text-align: center;
