@@ -296,6 +296,18 @@
     width:20.5%;
     margin:2%;
   }
+
+  .testimonials {
+    float: left;
+    padding: 4%;
+    width: 46%;
+  }
+
+  .testimonials:nth-of-type(odd) {
+    margin-right: 8%;
+  }
+
+
   .site-header {
     margin-bottom: 50px !important;
   }

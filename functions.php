@@ -295,6 +295,7 @@ function sp_post_info_filter($post_info) {
 	return $post_info;
 }
 
+//* Customize the testimonial length
 add_filter('excerpt_length', 'casa_testimonial_excerpt_length');
 function casa_testimonial_excerpt_length($length) {
 	if(is_post_type_archive( 'testimonials' ) ) {

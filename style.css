@@ -840,9 +840,11 @@ blockquote.construction-list {
 --------------------------------------------- */
 
 .post-type-archive-testimonials .site-container {
-  background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;
-  background-attachment: fixed;
-  background-size: 100vh auto;
+    background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 120vh;
+    overflow: scroll;
 }
 
 .overline {
@@ -861,15 +863,15 @@ blockquote.construction-list {
   background: -ms-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
   background: linear-gradient(to bottom, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', endColorstr='#ffffff', GradientType=0 );
-  float: left;
-  padding: 3%;
-  width: 46%;
+  /*float: left;*/
+  padding: 4%;
+  /*width: 46%;*/
 }
 
-.testimonials:nth-of-type(odd) {
+/*.testimonials:nth-of-type(odd) {
   margin-right: 8%;
 }
-
+*/
 .testimonials footer {
   text-align: center;
 }
