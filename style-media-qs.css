@@ -300,7 +300,7 @@
   /* Testimonials Archive */
   .post-type-archive-testimonials .testimonials {
     float: left;
-    height: 354px;
+    height: 324px;
     position: relative;
     width: 47%;
   }
@@ -663,7 +663,7 @@
   }
 
   .post-type-archive-testimonials .testimonials {
-    height: 350px;
+    height: 322px;
   }
 
   .single-testimonials main.content {
@@ -737,7 +737,7 @@
   }
 
   .post-type-archive-testimonials .testimonials {
-    height: 324px;
+    height: 282px;
     padding: 3%;
   }
 }
@@ -791,7 +791,7 @@
     }
 
   .post-type-archive-testimonials .testimonials {
-    height: 300px;
+    height: 254px;
   }
 
   .single-testimonials main.content {
