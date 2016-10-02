@@ -857,9 +857,15 @@ blockquote.construction-list {
     margin: 10% auto;
 }
 
+.post-type-archive-testimonials .title {
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
+}
+
+
 .overline {
   margin: 24px 0 0;
   text-align: center;
+  text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
   text-transform: uppercase;
 }
 
@@ -885,7 +891,6 @@ blockquote.construction-list {
   font-family: "garamond-premier-pro-display", serif;
   font-size: 1.3em;
   font-style: normal;
-  margin-bottom: 1em;
 }
 
 .testimonials footer a.button {
