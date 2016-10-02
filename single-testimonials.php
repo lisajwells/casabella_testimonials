@@ -29,7 +29,32 @@ function casa_do_post_title_as_attribution() {
     echo apply_filters( 'genesis_post_title_output', "$output \n", $title );
 }
 
+//* Add post navigation (requires HTML5 theme support)
+// https://wpbeaches.com/add-custom-post-type-navigation-links-in-genesis/
+add_action( 'genesis_entry_footer', 'casa_prev_next_post_nav_cpt' );
 
+function casa_prev_next_post_nav_cpt() {
+
+    if ( ! is_singular( array( 'testimonials', 'post' ) ) )
+        return;
+
+    genesis_markup( array(
+        'html5'   => '<div %s>',
+        'xhtml'   => '<div class="navigation">',
+        'context' => 'adjacent-entry-pagination',
+    ) );
+
+    echo '<div class="pagination-previous alignleft">';
+    previous_post_link();
+    echo '</div>';
+
+    echo '<div class="pagination-next alignright">';
+    next_post_link();
+    echo '</div>';
+
+    echo '</div>';
+
+}
 
 // This file handles single entries, but only exists for the sake of child theme forward compatibility.
 genesis();
