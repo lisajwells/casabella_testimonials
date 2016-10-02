@@ -909,9 +909,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', end
 
 .attborderwrap {
     display: table-cell;
+    padding: 0;
     vertical-align: middle;
     width: 90%;
-    padding: 0;
 }
 
 .attborderdiv {
@@ -919,8 +919,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', end
 }
 
 .attribution {
-    white-space: nowrap;
     padding: 0 0 0 10px;
+    white-space: nowrap;
 }
 
 
