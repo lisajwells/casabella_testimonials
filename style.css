@@ -909,6 +909,11 @@ blockquote.construction-list {
   padding: 10px 3px 3px 3px;
 }
 
+.single-testimonials .adjacent-entry-pagination {
+    background: rgb(220,233,238);
+    background: rgba(220,233,238,0.85);
+    padding: 6px;
+}
 
 /* Contact
 --------------------------------------------- */
