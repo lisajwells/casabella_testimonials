@@ -523,7 +523,7 @@ cite span,
   position: relative;
 }
 
-cite span:before,
+/*cite span:before,*/
 .overline span:before,
 .overline span:after,
 .title span:before,
@@ -536,11 +536,11 @@ cite span:before,
   width: 100%;
 }
 
-cite span:before {
+/*cite span:before {
   width: 40px;
 }
-
-cite span:before,
+*/
+/*cite span:before,*/
 .overline span:before,
 .title span:before {
   margin-right: 15px;
