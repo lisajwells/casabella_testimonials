@@ -303,11 +303,11 @@
     height: 354px;
     padding: 4%;
     position: relative;
-    width: 46%;
+    width: 47%;
   }
 
   .post-type-archive-testimonials .testimonials:nth-of-type(odd) {
-    margin-right: 8%;
+    margin-right: 6%;
   }
 
   .testimonials footer a.button {
