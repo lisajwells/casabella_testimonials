@@ -516,7 +516,7 @@ img {
   text-align: center;
 }
 
-cite span,
+/*cite span,*/
 .title span,
 .overline span {
   display: inline-block;
@@ -891,6 +891,16 @@ blockquote.construction-list {
   font-family: "garamond-premier-pro-display", serif;
   font-size: 1.3em;
   font-style: normal;
+}
+
+.testimonials footer cite div:last-child {
+    background: pink;
+    height: 10px;
+    border-bottom: 1px solid;
+}
+
+.testimonials .attribution {
+    float: right;
 }
 
 .testimonials footer a.button {

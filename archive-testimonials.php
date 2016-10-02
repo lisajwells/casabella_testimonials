@@ -16,8 +16,8 @@ function casa_do_post_title_as_attribution() {
 
     // Build the output.
     $output = genesis_markup( array(
-        'open'    => "<cite><span>",
-        'close'   => "</span></cite>",
+        'open'    => "<cite><div class='attribution'>",
+        'close'   => "</div><div></div></cite>",
         'content' => $title,
         'context' => 'entry-title',
         'echo'    => false,
