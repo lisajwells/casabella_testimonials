@@ -301,7 +301,6 @@
   .post-type-archive-testimonials .testimonials {
     float: left;
     height: 354px;
-    padding: 4%;
     position: relative;
     width: 47%;
   }
@@ -739,6 +738,7 @@
 
   .post-type-archive-testimonials .testimonials {
     height: 324px;
+    padding: 3%;
   }
 }
 
