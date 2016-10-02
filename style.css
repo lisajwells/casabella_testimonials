@@ -904,7 +904,8 @@ blockquote.construction-list {
 }
 
 .testimonials footer a.button {
-  margin-bottom: 9px;
+  display: block;
+  margin: 28px auto 9px;
   padding: 10px 3px 3px 3px;
 }
 
