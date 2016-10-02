@@ -912,7 +912,17 @@ blockquote.construction-list {
 .single-testimonials .adjacent-entry-pagination {
     background: rgb(220,233,238);
     background: rgba(220,233,238,0.85);
-    padding: 6px;
+    padding: 6px 4%;
+}
+
+.single-testimonials .adjacent-entry-pagination a {
+  border: none;
+  color: #808285;
+}
+
+.single-testimonials .adjacent-entry-pagination a:hover {
+  border: none;
+  color: #000;
 }
 
 /* Contact
