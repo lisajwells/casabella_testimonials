@@ -1329,6 +1329,7 @@ main.content,
 
 .post-type-archive-testimonials main.content {
   max-width: none;
+  width: 90%;
 }
 
 /* templates wide and bleed */
