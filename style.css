@@ -899,21 +899,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', end
 }
 
 .testimonials footer cite {
-  display: block;
+  display: table;
   font-family: "garamond-premier-pro-display", serif;
   font-size: 1.3em;
   font-style: normal;
+  width: 100%;
+
 }
 
-.testimonials footer cite div:last-child {
-    /*background: pink;*/
-    height: 17px;
-    border-bottom: 1px solid;
+.attborderwrap {
+    display: table-cell;
+    vertical-align: middle;
+    width: 90%;
+    padding: 0;
 }
 
-.testimonials .attribution {
-    float: right;
+.attborderdiv {
+    border-top: 1px solid;
 }
+
+.attribution {
+    white-space: nowrap;
+    padding: 0 0 0 10px;
+}
+
 
 .testimonials footer a.button {
   display: block;
