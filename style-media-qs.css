@@ -803,7 +803,8 @@
 
 @media only screen and (min-width: 1570px) {
 
-  .site-container {
+  .site-container,
+  .post-type-archive-testimonials .testimonial-bkgd {
     margin: 0 auto;
     max-width: 1570px;
   }

@@ -1382,7 +1382,8 @@ main.content,
   width: 80%;
 }
 
-.post-type-archive-testimonials main.content {
+.post-type-archive-testimonials main.content/*,
+.post-type-archive-testimonials testimonial-bkgd*/ {
   max-width: none;
   width: 90%;
 }
