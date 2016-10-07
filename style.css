@@ -841,12 +841,12 @@ blockquote.construction-list {
 
 .post-type-archive-testimonials .site-container {
     /*background: url(../Casabella/images/Testimonial_interior.jpg ) #a4c4d0 center center no-repeat;*/
-    background: url('http://staging.casabella.flywheelsites.com/wp-content/uploads/2016/10/testimonial-bg.jpg') #a4c4d0 center center no-repeat;
+/*    background: url('http://staging.casabella.flywheelsites.com/wp-content/uploads/2016/10/testimonial-bg.jpg') #a4c4d0 center center no-repeat;
     background-attachment: fixed;
     background-size: cover;
     height: 120vh;
     overflow: scroll;
-}
+*/}
 
 .single-testimonials .site-container {
     /*background: url('http://staging.casabella.flywheelsites.com/wp-content/uploads/2016/10/testimonial-bg.jpg') #a4c4d0 center center no-repeat;*/
