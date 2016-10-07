@@ -2,7 +2,7 @@
 /**
  */
 
-add_action( 'genesis_after_header', 'casa_do_testimonial_bkgd' );
+add_action( 'genesis_before_header', 'casa_do_testimonial_bkgd' );
 function casa_do_testimonial_bkgd() {
     echo '<div class="testimonial-bkgd"></div>';
 }
