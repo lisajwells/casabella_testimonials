@@ -299,7 +299,7 @@ function sp_post_info_filter($post_info) {
 add_filter('excerpt_length', 'casa_testimonial_excerpt_length');
 function casa_testimonial_excerpt_length($length) {
 	if(is_post_type_archive( 'testimonials' ) ) {
-		return 28;
+		return 36;
 	} else {
 		return 55;
 	}

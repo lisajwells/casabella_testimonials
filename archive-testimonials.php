@@ -29,7 +29,7 @@ function casa_do_post_title_as_attribution() {
 // Add Read More Button
 add_action( 'genesis_entry_footer', 'casa_do_read_more_button' );
 function casa_do_read_more_button() {
-    echo '<a class="button" href="' . get_permalink() . '">Read More</a>';
+    echo '<a class="button small" href="' . get_permalink() . '">Read More</a>';
 }
 
 //* Remove the entry meta in the entry header (requires HTML5 theme support)
