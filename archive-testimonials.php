@@ -2,6 +2,11 @@
 /**
  */
 
+add_action( 'genesis_after_header', 'casa_do_testimonial_bkgd' );
+function casa_do_testimonial_bkgd() {
+    echo '<div class="testimonial-bkgd"></div>';
+}
+
 //* Remove the entry title (requires HTML5 theme support)
 //* Add the entry title as attribution to the textimonial
 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
