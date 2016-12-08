@@ -266,9 +266,6 @@ blockquote {
   background-color: #F2F3F4;
   margin: 40px;
   padding: 10px;
-}
-
-blockquote p {
   color: #72969E;
   font-family: "garamond-premier-pro-display", serif;
   font-size: 22px;
@@ -278,6 +275,14 @@ blockquote p {
   margin-bottom: 6px;
   text-align:center;
   text-transform: none;
+}
+
+blockquote.grey {
+  background-color:#606060;
+  color:#DFEAEE;
+  margin: 40px;
+  padding: 20px;
+  font-size:23px;
 }
 
 blockquote ul > li {
@@ -447,6 +452,10 @@ h6 {
     margin: 0 auto;
     width: 80%;
 }
+#home-press-images_3 {
+    width:30%;
+    }
+
 
 /* Objects
 --------------------------------------------- */
@@ -840,7 +849,7 @@ blockquote.construction-list {
 --------------------------------------------- */
 
 .testimonial-bkgd {
-    background: url(http://staging.casabella.flywheelsites.com/wp-content/uploads/2016/10/testimonial-bg.jpg) #a4c4d0 center center no-repeat;
+    background: url(http://www.casabellainteriors.com/wp-content/uploads/2016/11/testimonial-bg.jpg) #a4c4d0 center center no-repeat;
     background-size: cover;
     height: 100vh;
     position: fixed;
@@ -848,7 +857,18 @@ blockquote.construction-list {
     z-index: -1;
 }
 
-.post-type-archive-testimonials .site-container {
+.testimonial-single-bkgd {
+    background: url(http://www.casabellainteriors.com/wp-content/uploads/2016/11/casabella-watermark.jpg) #eee center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    padding-top:120px;
+}
+
+.post-type-archive-testimonials .site-container,
+.single-testimonials .site-container {
   background-color: transparent;
 }
 
@@ -860,7 +880,11 @@ blockquote.construction-list {
   text-shadow: 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
-
+a.more-link {
+  font-weight:700;
+  color:#6A9BAA !important;
+  font-style:italic!important;
+}
 .overline {
   margin: 24px 0 0;
   text-align: center;
@@ -870,13 +894,13 @@ blockquote.construction-list {
 
 .testimonials {
   background: rgb(220,233,238);
-  background: rgba(220,233,238,0.9);
-  background: -moz-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.9) 100%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(220,233,238,0.9)), color-stop(100%, rgba(255,255,255,0.9)));
-  background: -webkit-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.9) 100%);
-  background: -o-linear-gradient(top, rgba(220,233,238,0.9) 0%, rgba(255,255,255,0.9) 100%);
-  background: -ms-linear-gradient(top, rgba(220,233,238,0.9) 0%, rgba(255,255,255,0.9) 100%);
-  background: linear-gradient(to bottom, rgba(220,233,238,0.9) 0%, rgba(255,255,255,0.9) 100%);
+  background: rgba(220,233,238,0.85);
+  background: -moz-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(220,233,238,0.85)), color-stop(100%, rgba(255,255,255,0.85)));
+  background: -webkit-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
+  background: -o-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
+  background: -ms-linear-gradient(top, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
+  background: linear-gradient(to bottom, rgba(220,233,238,0.85) 0%, rgba(255,255,255,0.85) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', endColorstr='#ffffff', GradientType=0 );
   padding: 4%;
 }
@@ -895,6 +919,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', end
 */
 .testimonials footer {
   text-align: right;
+  padding-top:10px;
 }
 
 .testimonials footer cite {
@@ -905,9 +930,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', end
   width: 100%;
 
 }
-.single-testimonials .testimonials {
-   margin-top:-80px!important;
-}
+
 .attborderwrap {
     display: table-cell;
     padding: 0;
@@ -916,14 +939,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dce9ee', end
 }
 
 .attborderdiv {
-    border-top: 1px solid;
+    border-top: 3px dotted #A4C4CF;
 }
 
 .attribution {
-    padding: 0 0 0 10px;
+    padding: 0 0 10px 10px;
     white-space: nowrap;
 }
-
 
 .testimonials footer a.button {
     display: block;
@@ -2351,7 +2373,7 @@ a[rel~="attachment"]:hover,
   float: right;
   font: normal 14px/1 'dashicons';
   height: 14px;
-  padding: 15px 0 15px 20px;
+  padding: 14px 0 7px 20px;
   right: 0;
   text-align: right;
   z-index: 9999;

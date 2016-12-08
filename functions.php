@@ -270,7 +270,7 @@ function casa_custom_footer(  ) {
 
 		<section id="footer-branding">
 			<img src="'. get_home_url() .'/wp-content/themes/Casabella/images/Casabella-LOGO-408x124.png">
-			<p><a href="http://casabella.flywheelsites.com/sitemap">Sitemap</a></p>
+			<p><a href="http://www.casabellainteriors.com/post_tag-sitemap.xml">Casabella </a><a href="http://www.casabellainteriors.com/page_tags-sitemap.xml">Interiors </a><a href="http://www.casabellainteriors.com/sitemap">Sitemap</a></p>
 			<p>Copyright Casabella Inc &copy; 2011&ndash;'. date ( 'Y' ) .'. All rights reserved.</p>
 			<p><a href="http://curioelectro.com" target="_blank">Website Design and Development by Curio Electro</a></p>
 		</section>' ;
@@ -299,7 +299,7 @@ function sp_post_info_filter($post_info) {
 add_filter('excerpt_length', 'casa_testimonial_excerpt_length');
 function casa_testimonial_excerpt_length($length) {
 	if(is_post_type_archive( 'testimonials' ) ) {
-		return 36;
+		return 46;
 	} else {
 		return 55;
 	}

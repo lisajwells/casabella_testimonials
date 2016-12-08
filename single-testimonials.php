@@ -2,6 +2,12 @@
 /**
  */
 
+// add background image to page
+add_action( 'genesis_before_header', 'casa_do_testimonial_single_bkgd' );
+function casa_do_testimonial_single_bkgd() {
+    echo '<div class="testimonial-single-bkgd"></div>';
+}
+
 //* Remove the entry title (requires HTML5 theme support)
 //* Add the entry title as attribution to the textimonial
 remove_action( 'genesis_entry_header', 'genesis_do_post_title' );
@@ -29,6 +35,11 @@ function casa_do_post_title_as_attribution() {
     echo apply_filters( 'genesis_post_title_output', "$output \n", $title );
 }
 
+add_action( 'genesis_before_content_sidebar_wrap', 'casa_show_testimonial_page_title' );
+function casa_show_testimonial_page_title() {
+    echo '<p class="overline"><span>Casabella Stories</span></p><h2 class="title">A Few Words from our Clients</h2>';
+}
+
 //* Add post navigation (requires HTML5 theme support)
 // https://wpbeaches.com/add-custom-post-type-navigation-links-in-genesis/
 add_action( 'genesis_after_entry', 'casa_prev_next_post_nav_cpt' );
@@ -45,11 +56,11 @@ function casa_prev_next_post_nav_cpt() {
     ) );
 
     echo '<div class="pagination-previous alignleft">';
-    previous_post_link('&laquo; %link', 'Previous Testimonial');
+    next_post_link('&laquo; %link', 'Previous Testimonial');
     echo '</div>';
 
     echo '<div class="pagination-next alignright">';
-    next_post_link(' %link', 'Next Testimonial &raquo;');
+    previous_post_link(' %link', 'Next Testimonial &raquo;');
     echo '</div>';
 
     echo '</div>';
