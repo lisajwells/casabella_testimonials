@@ -27,8 +27,26 @@ function ms_scripts_styles() {
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic|Montserrat', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'casa-media-css', get_stylesheet_directory_uri() . '/style-media-qs.css' );
 
-
 }
+
+//* Add custom color to tinyMCE
+//* http://stackoverflow.com/questions/23171247/add-custom-text-color-wordpress-3-9-tinymce-4-visual-editor
+function my_mce4_options($init) {
+  $default_colours = '"000000", "Black",
+  					  "808285", "CasaGrey",
+                      "FFFFFF", "White"';
+
+  $custom_colours =  '"6A9BAA", "CasaBlue"';
+
+  // build colour grid default+custom colors
+  $init['textcolor_map'] = '['.$default_colours.','.$custom_colours.']';
+
+  // enable 6th row for custom colours in grid
+  $init['textcolor_rows'] = 6;
+
+  return $init;
+}
+add_filter('tiny_mce_before_init', 'my_mce4_options');
 
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list', 'gallery', 'caption' ) );
@@ -58,10 +76,7 @@ add_theme_support( 'custom-header', array(
 ) );
 
 //* Remove style sheet from Visual Form Builder
-
 add_filter( 'visual-form-builder-css', '__return_false' );
-
-
 
 //* Add support for custom background
 add_theme_support( 'custom-background' );
