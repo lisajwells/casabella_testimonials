@@ -63,11 +63,9 @@
 	add_action( 'genesis_before_footer', 'home_press_section');
 	function home_press_section() {
 		echo '<div class="section" id="home-press">
-			  <p>Featured in...</p>
-			  <a href="'. get_home_url() .'/interior-design-press">
-			  <div class="home-press-logos" id="home-press-images_1"><img src="'. get_home_url() .'/wp-content/uploads/2016/08/casabella-featured-in-1.jpg" nopin="nopin" alt="Press Logos" /></div>
-			  <div class="home-press-logos" id="home-press-images_2"><img src="'. get_home_url() .'/wp-content/uploads/2016/07/press-imgs-combo-right_75_60_70_2016.jpg" nopin="nopin" alt="Press Logos" /></div></a>
-<a href="'. get_home_url() .'/casabella-interiors-project-featured-houzz"><div id="home-press-images_3"><img src="http://st.hzcdn.com/static/badge181_25_gs@2x.png" nopin="nopin" alt="Press Logos" /></a>
+			  <div class="home-awards-logos" id="home-press-images_1"><img src="'. get_home_url() .'/wp-content/uploads/2016/08/casabella-featured-in-1.jpg" nopin="nopin" alt="Press Logos" /></div>
+			  <div class="home-awards-logos" id="home-press-images_2"><img src="'. get_home_url() .'/wp-content/uploads/2016/07/press-imgs-combo-right_75_60_70_2016.jpg" nopin="nopin" alt="Press Logos" /></div>
+			  <div id="home-press-images_3"><img src="http://st.hzcdn.com/static/badge181_25_gs@2x.png" nopin="nopin" alt="Press Logos" />
 	          </div> ';
 	}
 
