@@ -2430,7 +2430,8 @@ a[rel~="attachment"]:hover,
 }
 
 .entry-content a {
-  color: #808285;
+  color: #6A9BAA;
+  font-weight:700;
 }
 
 .entry-content a:hover {
