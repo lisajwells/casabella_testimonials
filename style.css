@@ -443,7 +443,7 @@ h6 {
 
 #home-press {
     margin: 40px auto 40px;
-    max-width: 80%;
+    max-width: 284px;
     overflow: auto;
     text-align: center;
 }
@@ -451,6 +451,7 @@ h6 {
 .home-awards-logos {
     display: inline-block;
     margin: 10px auto;
+    vertical-align: middle;
     width: 49%;
 }
 
@@ -460,6 +461,7 @@ h6 {
 
 #home-awards-logo_1 img {
   max-width: 130px;
+  width: 100%;
 }
 
 #home-awards-logo_2 img,
