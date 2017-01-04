@@ -60,9 +60,21 @@
     width:80%;
   }
 
+  #home-press {
+    margin: 40px auto;
+    max-width: 80%;
+  }
+
   .home-awards-logos {
-    margin: 0 auto;
-    width: 70%;
+    display: inline-block;
+    margin: 0 auto 16px;
+    width: 29%;
+  }
+
+  #home-awards-logo_1 {
+    float: left;
+    width: 40%;
+    margin-bottom: 11%;
   }
 
   .home h1,

@@ -66,10 +66,10 @@
 			  <div class="home-awards-logos" id="home-awards-logo_1"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/BOB-Home-Logo-2017.jpg" nopin="nopin" alt="Best of Boston Home logo 2017" /></div>
 			  <div class="home-awards-logos" id="home-awards-logo_2"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-houzz-2015-service.jpg" nopin="nopin" alt="Best of Houzz 2015 Service" /></div>
 			  <div class="home-awards-logos" id="home-awards-logo_3"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-10k-saves.jpg" nopin="nopin" alt="Houzz 10k Saves" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_4"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod.jpg" nopin="nopin" alt="Best of Cape Cod logo 2013" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_5"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod.jpg" nopin="nopin" alt="Best of Cape Cod logo 2014" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_6"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod.jpg" nopin="nopin" alt="Best of Cape Cod logo 2015" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_7"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod.jpg" nopin="nopin" alt="Best of Cape Cod logo 2016" /></div>
+			  <div class="home-awards-logos" id="home-awards-logo_4"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod-2016.jpg" nopin="nopin" alt="Best of Cape Cod logo 2013" /></div>
+			  <div class="home-awards-logos" id="home-awards-logo_5"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod-2016.jpg" nopin="nopin" alt="Best of Cape Cod logo 2014" /></div>
+			  <div class="home-awards-logos" id="home-awards-logo_6"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod-2016.jpg" nopin="nopin" alt="Best of Cape Cod logo 2015" /></div>
+			  <div class="home-awards-logos" id="home-awards-logo_7"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/best-of-cape-cod-2016.jpg" nopin="nopin" alt="Best of Cape Cod logo 2016" /></div>
 	          </div> ';
 	}
 
