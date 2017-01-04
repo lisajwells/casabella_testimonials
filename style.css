@@ -443,18 +443,28 @@ h6 {
 
 #home-press {
     margin: 40px auto 40px;
-    max-width: 1200px;
+    max-width: 80%;
     overflow: auto;
     text-align: center;
 }
 
 .home-awards-logos {
+    display: inline-block;
     margin: 10px auto;
-    width: 80%;
+    width: 49%;
+}
+
+#home-awards-logo_1 {
+  width: 100%;
 }
 
 #home-awards-logo_1 img {
   max-width: 130px;
+}
+
+#home-awards-logo_2 img,
+#home-awards-logo_3 img {
+    max-width: 103px;
 }
 
 #awards-div {

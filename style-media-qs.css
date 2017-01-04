@@ -66,15 +66,14 @@
   }
 
   .home-awards-logos {
-    display: inline-block;
     margin: 0 auto 16px;
-    width: 29%;
+    width: 33%;
   }
 
   #home-awards-logo_1 {
     float: left;
-    width: 40%;
     margin-bottom: 11%;
+    width: 33%;
   }
 
   .home h1,
@@ -203,12 +202,12 @@
   .home-awards-logos {
     display: inline-block;
     margin: 0 auto 16px;
-    width: 22%;
+    width: 24.5%;
   }
 
   #home-awards-logo_1 {
     float: left;
-    width: 30%;
+    width: 24.5%;
     margin-bottom: 11%;
   }
 
