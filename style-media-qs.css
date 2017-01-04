@@ -315,17 +315,6 @@
     clear:both;
     width: 50%;
   }
-  #home-press-images_2 {
-    width:50%;
-    margin:0 0 0 12.5%;
-    float:left;
-    }
-  #home-press-images_3 {
-    width:25%;
-    margin-top:24px;
-    padding-left:70px;
-    float:left;
-    }
 
   .home h2 {
     font-size: 55px;
@@ -861,12 +850,6 @@
       max-width: 1570px;
   }
 }
-@media only screen and (max-width: 930px) {
-  #home-press-images_3 {
-    width:30%;
-    clear:both;
-    margin:10px 35%;
-    }
 
 @media only screen and (max-width: 430px) {
 
