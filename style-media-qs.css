@@ -66,14 +66,14 @@
   }
 
   .home-awards-logos {
-    margin: 0 auto 16px;
-    width: 33%;
+      display: inline-block;
+      margin: 1% 3%;
+      vertical-align: middle;
+      width: 18%;
   }
 
-  #home-awards-logo_1 {
-    float: left;
-    margin-bottom: 11%;
-    width: 33%;
+  #home-awards-logo_1 img {
+    max-height: 140px;
   }
 
   .home h1,
@@ -204,7 +204,7 @@
     max-width: 600px;
   }
 
-  .home-awards-logos {
+/*  .home-awards-logos {
     display: inline-block;
     margin: 0 auto 16px;
     width: 24.5%;
@@ -216,7 +216,7 @@
     margin-bottom: 11%;
     margin-right: 3%;
   }
-
+*/
 }
 
 /* this is where hamburger goes away */
@@ -334,11 +334,6 @@
     padding: 10px 8px 6px 8px;
     right: 2em;
     top: 2em;
-  }
-
-  #home-press {
-      margin: 40px auto;
-      max-width: 600px;
   }
 
   .home h2 {
