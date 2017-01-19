@@ -70,6 +70,7 @@
 			  <div class="home-awards-logos" id="home-awards-logo_5"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2015.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2014" /></div>
 			  <div class="home-awards-logos" id="home-awards-logo_6"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2014.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2015" /></div>
 			  <div class="home-awards-logos" id="home-awards-logo_7"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2013-grey.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2016" /></div>
+			  <div class="home-awards-logos" id="home-awards-logo_8"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2013-grey.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2016" /></div>
 	          </div> ';
 	}
 
