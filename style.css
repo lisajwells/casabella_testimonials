@@ -442,19 +442,32 @@ h6 {
 --------------------------------------------- */
 
 #home-press {
-    margin: 0 auto 40px;
-    max-width: 1200px;
+    margin: 40px auto 40px;
+    max-width: 284px;
     overflow: auto;
     text-align: center;
 }
 
-.home-press-logos {
-    margin: 0 auto;
-    width: 80%;
+.home-awards-logos {
+    display: inline-block;
+    margin: 10px auto;
+    vertical-align: middle;
+    width: 49%;
 }
-#home-press-images_3 {
-    width:30%;
-    }
+
+#home-awards-logo_1 {
+  width: 100%;
+}
+
+#home-awards-logo_1 img {
+  max-width: 130px;
+  width: 100%;
+}
+
+#home-awards-logo_2 img,
+#home-awards-logo_3 img {
+    max-width: 103px;
+}
 
 #awards-div {
   display:none;
