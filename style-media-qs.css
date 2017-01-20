@@ -204,19 +204,17 @@
     max-width: 600px;
   }
 
-/*  .home-awards-logos {
-    display: inline-block;
-    margin: 0 auto 16px;
-    width: 24.5%;
+  #home-awards-logo_1 {
+    width: 15%;
+    margin: 1% 2%;
   }
 
-  #home-awards-logo_1 {
-    float: left;
-    width: 21.5%;
-    margin-bottom: 11%;
-    margin-right: 3%;
+  #home-awards-logo_2,
+  #home-awards-logo_3,
+  #home-awards-logo_4 {
+    width: 17%;
+    margin: 1% 2%;
   }
-*/
 }
 
 /* this is where hamburger goes away */
