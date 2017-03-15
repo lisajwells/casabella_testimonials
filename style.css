@@ -443,8 +443,10 @@ h6 {
 
 #home-press {
     background-color: #efefef;
-    margin: 40px auto 40px;
-    max-width: 80%;
+    border-top: 2px solid #B1B2B4;
+    border-bottom: 2px solid #B1B2B4;
+    margin: 40px auto 0;
+    width: 100%;
     overflow: auto;
     text-align: center;
 }
