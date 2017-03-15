@@ -452,6 +452,7 @@ h6 {
 }
 
 .the-awards {
+  align-items: center;
   display: flex;
   padding: 4%;
   flex-wrap: wrap;
