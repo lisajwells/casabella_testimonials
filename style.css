@@ -452,32 +452,29 @@ h6 {
 }
 
 .the-awards {
+  align-content: center;
   align-items: center;
   display: flex;
-  padding: 4%;
+  padding: 5%;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  max-width: 360px;
 }
 
 .home-awards-logos {
-    display: inline-block;
-    margin: 4% 4%;
-    vertical-align: middle;
-    width: 40%;
+  flex: 0 1 35%;
+  margin: .7em 0;
 }
 
 #home-awards-logo_1 {
-  width: 35%;
-  margin: 4% 4%;
-  max-width: 115px;
+
 }
 
 #home-awards-logo_2,
 #home-awards-logo_3,
 #home-awards-logo_4 {
-  width: 35%;
-  max-width: 115px;
-  margin: 4% 4%;
+
 }
 
 #home-awards-logo_5 img,
