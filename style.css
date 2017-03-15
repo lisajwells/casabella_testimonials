@@ -442,8 +442,9 @@ h6 {
 --------------------------------------------- */
 
 #home-press {
+    background-color: #efefef;
     margin: 40px auto 40px;
-    max-width: 190px;
+    max-width: 80%;
     overflow: auto;
     text-align: center;
 }

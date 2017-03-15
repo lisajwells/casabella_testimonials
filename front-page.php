@@ -62,17 +62,17 @@
 
 	add_action( 'genesis_before_footer', 'home_press_section');
 	function home_press_section() {
-		echo '<div class="section" id="home-press">
-			  <div class="home-awards-logos" id="home-awards-logo_1"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/BOB-Home-Logo-2017-grey.jpg" nopin="nopin" alt="Best of Boston Home logo 2017" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_2"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-2017-design.jpg" nopin="nopin" alt="Best of Houzz 2017 Design" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_3"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-2016-service.jpg" nopin="nopin" alt="Best of Houzz 2016 Service" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_4"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-2015-service.jpg" nopin="nopin" alt="Best of Houzz 2015 Service" /></div>
+		echo '<div class="section" id="home-press"><div class="the-awards">
+				  <div class="home-awards-logos" id="home-awards-logo_1"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/BOB-Home-Logo-2017-grey.jpg" nopin="nopin" alt="Best of Boston Home logo 2017" /></div>
+				  <div class="home-awards-logos" id="home-awards-logo_2"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-2017-design.jpg" nopin="nopin" alt="Best of Houzz 2017 Design" /></div>
+				  <div class="home-awards-logos" id="home-awards-logo_3"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-2016-service.jpg" nopin="nopin" alt="Best of Houzz 2016 Service" /></div>
+				  <div class="home-awards-logos" id="home-awards-logo_4"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/houzz-2015-service.jpg" nopin="nopin" alt="Best of Houzz 2015 Service" /></div>
 
-			  <div class="home-awards-logos" id="home-awards-logo_5"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2016.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2016" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_6"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2015.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2015" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_7"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2014-1.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2014" /></div>
-			  <div class="home-awards-logos" id="home-awards-logo_8"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2013-grey.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2013" /></div>
-	          </div> ';
+				  <div class="home-awards-logos" id="home-awards-logo_5"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2016.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2016" /></div>
+				  <div class="home-awards-logos" id="home-awards-logo_6"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2015.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2015" /></div>
+				  <div class="home-awards-logos" id="home-awards-logo_7"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2014-1.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2014" /></div>
+				  <div class="home-awards-logos" id="home-awards-logo_8"><img src="'. get_home_url() .'/wp-content/uploads/2017/01/cape-cod-life-seal-2013-grey.jpg" width="115" height="auto" nopin="nopin" alt="Best of Cape Cod logo 2013" /></div>
+	          </div></div> ';
 	}
 
 
