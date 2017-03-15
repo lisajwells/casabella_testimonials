@@ -451,6 +451,13 @@ h6 {
     text-align: center;
 }
 
+.the-awards {
+  display: flex;
+  padding: 4%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .home-awards-logos {
     display: inline-block;
     margin: 4% 4%;
@@ -461,36 +468,28 @@ h6 {
 #home-awards-logo_1 {
   width: 35%;
   margin: 4% 4%;
+  max-width: 115px;
 }
 
 #home-awards-logo_2,
 #home-awards-logo_3,
 #home-awards-logo_4 {
   width: 35%;
+  max-width: 115px;
   margin: 4% 4%;
 }
 
+#home-awards-logo_5 img,
+#home-awards-logo_6 img,
+#home-awards-logo_7 img,
+#home-awards-logo_8 img {
+  border-radius: 50%
+}
 
 #home-awards-logo_1 img {
+  border: 3px solid #fff;
   max-height: 170px;
 }
-
-/*#home-awards-logo_2 img,
-#home-awards-logo_3 img,
-#home-awards-logo_4 img {
-  width: 90%;
-}
-*/
-/*#home-awards-logo_1 img {
-  max-width: 130px;
-  width: 100%;
-}
-
-#home-awards-logo_2 img,
-#home-awards-logo_3 img {
-    max-width: 103px;
-}
-*/
 
 #awards-div {
   display:none;
