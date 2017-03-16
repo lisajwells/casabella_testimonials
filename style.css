@@ -442,10 +442,10 @@ h6 {
 --------------------------------------------- */
 
 #home-press {
-    background-color: #efefef;
-    border-top: 2px solid #B1B2B4;
+    background-color: #e6e5e5;
+/*    border-top: 2px solid #B1B2B4;
     border-bottom: 2px solid #B1B2B4;
-    margin: 40px auto 0;
+*/    margin: 40px auto 0;
     width: 100%;
     overflow: auto;
     text-align: center;
@@ -460,7 +460,7 @@ h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5%;
+  padding: 2%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
