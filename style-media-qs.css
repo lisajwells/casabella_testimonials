@@ -60,7 +60,21 @@
     width:80%;
   }
 
-  #home-press {
+  /* Home Awards min600 */
+
+  .the-awards {
+    max-width: 500px;
+  }
+
+  .home-awards-logos {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 20%;
+            flex: 0 1 20%;
+    margin: .7em 2%;
+  }
+
+
+/*  #home-press {
     margin: 40px auto;
     max-width: 335px;
   }
@@ -87,6 +101,8 @@
   #home-awards-logo_1 img {
     max-height: 140px;
   }
+*/
+  /**/
 
   .home h1,
   p.inner-locations { /* Cape Cod | Boston | New York */
@@ -211,10 +227,20 @@
     width:28.75%;
   }
 
-  #home-press {
-    margin: 40px auto;
-    max-width: 402px;
+  /* Home Awards min800 */
+
+  .the-awards {
+    /*max-width: 500px;*/
   }
+
+  .home-awards-logos {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 20%;
+            flex: 0 1 20%;
+    margin: .7em 2%;
+  }
+
+  /**/
 
 }
 
