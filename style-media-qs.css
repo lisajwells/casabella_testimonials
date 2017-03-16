@@ -230,14 +230,30 @@
   /* Home Awards min800 */
 
   .the-awards {
-    /*max-width: 500px;*/
+    max-width: 1000px;
   }
 
   .home-awards-logos {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 20%;
-            flex: 0 1 20%;
-    margin: .7em 2%;
+        -ms-flex: 0 1 9%;
+            flex: 0 1 9%;
+    margin: 0 1%;
+  }
+
+  #home-awards-logo_1 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 8%;
+            flex: 0 1 8%;
+    margin: 0 1.5%;
+  }
+
+  #home-awards-logo_2,
+  #home-awards-logo_3,
+  #home-awards-logo_4 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1.5 8.5%;
+            flex: 0 1.5 8.5%;
+    margin: 0 1.5%;
   }
 
   /**/
