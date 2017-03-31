@@ -781,13 +781,16 @@ blockquote.construction-list {
 
 /* Portfolio Page
 --------------------------------------------- */
-#soliloquy-image-1512 {
+#soliloquy-image-1512,
+#soliloquy-image-3888 { /*contact page, portfolio page*/
 	margin-top:-30px;
 }
 
+.portfolio-deck {
+  text-align: center;
+}
+
 #portpics {
-  margin-left: -2%;
-  margin-right: -2%;
   margin-top: 40px;
   opacity:1;
   overflow: hidden;
@@ -817,50 +820,12 @@ blockquote.construction-list {
   width: 100%;
 }
 
-.port-top, .port-bottom {
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 99;
-}
-
-.port-top:before, .port-top:after, .port-bottom:before, .port-bottom:after {
-  background-color: #fff;
-  border-radius: 36px;
-  content: " ";
-  height: 24px;
-  position: absolute;
-  width: 24px;
-}
-
-.port-top:before {
-  left: -13px;
-  top: -13px;
-}
-
-.port-top:after {
-  right: -13px;
-  top: -13px;
-}
-
-.port-bottom:before {
-  bottom: -13px;
-  left: -13px;
-}
-
-.port-bottom:after {
-  bottom: -13px;
-  right: -13px;
-}
-
 .portpic-caption { /* this is not a gradient, but the caption*/
   color: #333;
   height: auto;
   letter-spacing: 3px;
   line-height: 1.2;
-  margin:0 5%;
+  margin:0 auto;
   padding: 12px;
   position: relative;
   text-align: center;
@@ -2865,3 +2830,4 @@ p.form-submit,
   height: auto;
   width: 204px;
 }
+
