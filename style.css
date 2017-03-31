@@ -787,6 +787,8 @@ blockquote.construction-list {
 }
 
 .portfolio-deck {
+  margin: 0 auto;
+  max-width: 900px;
   text-align: center;
 }
 

@@ -8,18 +8,14 @@
 
 @media only screen and (min-width: 460px) {
 
-  .body {color: red;}
-
   #portpics {
-    justify-content: space-around;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
   }
 
   .portpic-wrapper {
-      width: 46%;
-      flex-grow: 1;
-      margin: 2%;
+    flex-basis: 46%;
   }
 
   .button {
@@ -180,7 +176,7 @@
 @media only screen and (min-width: 740px) {
 
   .portpic-wrapper {
-      width: 29.33%;
+      flex-basis: 29.33%;
   }
 
 }
