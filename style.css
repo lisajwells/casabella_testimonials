@@ -781,7 +781,7 @@ blockquote.construction-list {
 
 /* Portfolio Page
 --------------------------------------------- */
-#soliloquy-image-1512 { /* contact page */
+#soliloquy-image-1512 {
 	margin-top:-30px;
 }
 
@@ -855,7 +855,7 @@ blockquote.construction-list {
   right: -13px;
 }
 
-.portpic-gradient { /* this is not a gradient, but the caption*/
+.portpic-caption { /* this is not a gradient, but the caption*/
   color: #333;
   height: auto;
   letter-spacing: 3px;
