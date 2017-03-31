@@ -9,13 +9,23 @@
 @media only screen and (min-width: 460px) {
 
   #portpics {
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   .portpic-wrapper {
-    flex-basis: 46%;
+    -webkit-flex-basis: 46%;
+        -ms-flex-preferred-size: 46%;
+            flex-basis: 46%;
   }
 
   .button {
@@ -75,6 +85,7 @@
   .home-awards-logos {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 20%;
+            -webkit-flex: 0 1 20%;
             flex: 0 1 20%;
     margin: .7em 2%;
   }
@@ -98,8 +109,7 @@
   }
 
   #gradient-div {
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.35+100 */
-    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.35) 100%); /* FF3.6-15 */
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.35+100 */ /* FF3.6-15 */
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.35) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     display: block;
@@ -176,7 +186,9 @@
 @media only screen and (min-width: 740px) {
 
   .portpic-wrapper {
-      flex-basis: 29.33%;
+      -webkit-flex-basis: 29.33%;
+          -ms-flex-preferred-size: 29.33%;
+              flex-basis: 29.33%;
   }
 
 }
@@ -213,6 +225,7 @@
   .home-awards-logos {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 9%;
+            -webkit-flex: 0 1 9%;
             flex: 0 1 9%;
     margin: 0 1%;
   }
@@ -220,6 +233,7 @@
   #home-awards-logo_1 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 8%;
+            -webkit-flex: 0 1 8%;
             flex: 0 1 8%;
     margin: 0 1.5%;
   }
@@ -229,6 +243,7 @@
   #home-awards-logo_4 {
     -webkit-box-flex: 0;
         -ms-flex: 0 1.5 8.5%;
+            -webkit-flex: 0 1.5 8.5%;
             flex: 0 1.5 8.5%;
     margin: 0 1.5%;
   }
