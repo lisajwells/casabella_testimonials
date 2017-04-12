@@ -820,9 +820,18 @@ blockquote.construction-list {
   /*contact page*/
   margin-top: -30px; }
 
-figure.portfolio-hero {
+.portfolio-hero {
   margin: -30px 0 0 0;
   position: relative; }
+
+.portfolio-hero h2 {
+  color: #fff;
+  letter-spacing: 3px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 1em;
+  width: 100%; }
 
 .portfolio-deck {
   margin: 0 auto;
